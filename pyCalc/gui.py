@@ -109,7 +109,7 @@ class TkGUI(tk.Tk):
 
 		# adding new operations
 		pi = tk.Button(self, text="pi", command=lambda: self.get_operation(
-			"*3.14"), font=self.FONT_LARGE)
+			"3.14"), font=self.FONT_LARGE)
 		pi.grid(row=2, column=4)
 		modulo = tk.Button(
 			self, text="%", command=lambda:  self.get_operation("%"), font=self.FONT_LARGE)
